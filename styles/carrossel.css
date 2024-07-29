@@ -82,8 +82,8 @@
     margin: 0 0.5em;
 }
 .descrição__imagem{
-    width: 50;
 
+ scale: 20;
 }
 .carrossel{
     width: 80;
