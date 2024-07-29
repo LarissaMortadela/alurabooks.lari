@@ -1,3 +1,4 @@
+
 .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -9,11 +10,13 @@
 }
 
 .swiper-slide img {
-    width: 60%;
+   width: 200px;
 }
 
 
-.swiper-button-prev,
+.swiper-button-prev{
+    display: none;
+}
 .swiper-button-next {
     display: none;
 }
@@ -30,14 +33,13 @@
     border-radius: 10px;
     margin: 1em;
     padding: 1em;
-    border-radius: 40px;
 }
 
 .card__descrição {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
-
+    font-weight: 20px;
 }
 
 .card__botões {
@@ -80,5 +82,8 @@
     margin: 0 0.5em;
 }
 .descrição__imagem{
-    width: 12%;
+    width: 15%;
+}
+.carrossel{
+    width: 100;
 }
